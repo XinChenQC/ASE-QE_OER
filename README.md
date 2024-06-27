@@ -1,5 +1,7 @@
 # ASE-QE_OER
-Atomic Simulation Environment (ASE) plus Quantum Espresso (QE) for OER reaction. This is a project for Q-MS 2024 workshop. 
+Atomic Simulation Environment (ASE) plus Quantum Espresso (QE) for OER reaction. This is a project for Q-MS 2024 workshop.
+
+All must be finished in JupyterLab. 
 
 ## Goal
 1. Bulk calculation
@@ -7,6 +9,6 @@ Atomic Simulation Environment (ASE) plus Quantum Espresso (QE) for OER reaction.
 3. Compute absorption energy
 
 ## Bulk
-1. K-Points covergence test
-2. Ecut covergence test
-3. Optimize the cell parameters
+1. K-Points covergence test (DONE!)
+2. Ecut covergence test (DONE!)
+3. Optimize the cell parameters 
