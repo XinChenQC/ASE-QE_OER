@@ -163,6 +163,7 @@ cython_debug/
 #
 #QEPY
 *.save
+*.pwo
 RuO2.xml
 espresso.err
 relax.traj

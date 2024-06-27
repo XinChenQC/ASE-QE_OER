@@ -1,0 +1,12 @@
+&INPUTPH
+   outdir           = 'RuO2_out/RuO2.save'
+   prefix           = 'RuO2'
+   tr2_ph           = 1e-12
+   alpha_mix(1)     = 0.1
+   verbosity        = 'high'
+   qplot            = .false.
+   ldisp            = .true.
+   nq1              = 4
+   nq2              = 4
+   nq3              = 4
+/

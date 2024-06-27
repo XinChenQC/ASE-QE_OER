@@ -1,10 +1,9 @@
 &CONTROL
-   calculation      = 'vc-relax'
+   calculation      = 'scf'
    restart_mode     = 'from_scratch'
    tstress          = .true.
    tprnfor          = .true.
-   outdir           = 'RuO2_out'
-   prefix           = 'RuO2_o'
+   prefix           = 'RuO2'
    pseudo_dir       = './pseudos'
 /
 &SYSTEM
@@ -13,7 +12,6 @@
    occupations      = 'smearing'
    degauss          = 0.01
    smearing         = 'gauss'
-   hubbard_alpha(1) = -0.02
    ntyp             = 2
    nat              = 6
    ibrav            = 0
@@ -21,7 +19,6 @@
 &ELECTRONS
    conv_thr         = 1e-08
    mixing_beta      = 0.7
-   startingpot      = 'file'
 /
 &IONS
 /
@@ -32,8 +29,8 @@
 &RISM
 /
 ATOMIC_SPECIES
-Ru 101.07 ru_pbesol_v1.2.uspp.F.UPF
-O 15.999 o_pbesol_v1.2.uspp.F.UPF
+Ru 101.07   ru_pbesol_v1.2.uspp.F.UPF
+O 15.999     o_pbesol_v1.2.uspp.F.UPF
 
 K_POINTS automatic
 4 4 4  0 0 0
@@ -46,10 +43,8 @@ CELL_PARAMETERS angstrom
 ATOMIC_POSITIONS angstrom
 Ru 0.0000000000 0.0000000000 0.0000000000  
 Ru 2.2484000000 2.2484000000 1.5524500000  
-O 1.3728730400 1.3728730400 0.0000000000  
-O 3.1239269600 3.1239269600 0.0000000000  
-O 3.6212730400 0.8755269600 1.5524500000  
-O 0.8755269600 3.6212730400 1.5524500000  
+O 1.3745783996 1.3745783996 -0.0000000000  
+O 3.1222216004 3.1222216004 -0.0000000000  
+O 3.6229783996 0.8738216004 1.5524500000  
+O 0.8738216004 3.6229783996 1.5524500000  
 
-HUBBARD (ortho-atomic)
-U Ru-4d 2.365

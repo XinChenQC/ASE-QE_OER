@@ -8,8 +8,8 @@
    pseudo_dir       = './pseudos'
 /
 &SYSTEM
-   ecutwfc          = 40
-   ecutrho          = 320
+   ecutwfc          = 50
+   ecutrho          = 400
    occupations      = 'smearing'
    degauss          = 0.01
    smearing         = 'gauss'
@@ -36,7 +36,7 @@ Ru 101.07 ru_pbesol_v1.2.uspp.F.UPF
 O 15.999 o_pbesol_v1.2.uspp.F.UPF
 
 K_POINTS automatic
-4 4 4  0 0 0
+8 8 8  0 0 0
 
 CELL_PARAMETERS angstrom
 4.49680000000000 0.00000000000000 0.00000000000000

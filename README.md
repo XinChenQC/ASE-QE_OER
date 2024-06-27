@@ -11,4 +11,6 @@ All must be finished in JupyterLab.
 ## Bulk
 1. K-Points covergence test (DONE!)
 2. Ecut covergence test (DONE!)
-3. Optimize the cell parameters 
+3. Get the Hubbard U parameter for Ru (DONE!)
+4. Optimize the cell parameters (DONE!)
+
